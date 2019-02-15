@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 class Program
 {
-    //https://discordapp.com/oauth2/authorize?client_id=276452790744907776&scope=bot&permissions=0
     static void Main(string[] args) => new Program().Start();
 
     public static DiscordClient _client;
